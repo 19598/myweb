@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+	--headerFooter: #347F00;
+	--nav: #7FCF47;
+	--aside: #1e4a00;
+	--section: var(--aside);
+}
+
+body {
+	background-image: url(images/background.png);
+	background-attachment: fixed;
+}
+
+#container {
+	background-color: transparent;
+	width: 960px;
+	margin: 10px auto 0 auto;
+	border-color: black;
+	border-radius: 15px;
+}
+
+header {
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	height: 50px;
+	width: 960px;
+	text-align: center;
+	font-family: Sans-serif;
+	padding-top: 10px;
+	color: var(--headerFooter);
+}
+
+nav {
+	background-color: var(--nav);
+	border-color: black;
+	border-radius: 15px;
+	width: 950px;
+	padding-left: 10px;
+	margin: 10px 0;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+	list-style-type: none;
+	padding-right: 10px
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+	font-size: 1.3em;
+}
+
+nav a:hover {
+	color: var(--nav);
+	background-color: white;
+}
+
+aside {
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	width: 200px;
+	margin: 0 0 10px 10px;
+	float: right;
+	color: var(--aside);
+	padding: 10px;
+}
+
+aside h2 {
+	text-align: center;
+}
+
+section {
+	background-color: white;
+	border-color: black;
+	border-radius: 15px;
+	margin-bottom: 10px;
+	padding: 0 10px;
+	width: 710px;
+	float: left;
+	color: var(--section);
+}
+
+section h2 {
+	text-align: center;
+}
+
+section p {
+	font-size: 1.5em;
+	line-height: 1.5em;
+}
+
+#CCPTable {
+	width: 314px;
+	border-radius: 0px;
+	color: black;
+	padding: 0px;
+	margin: auto;
+	float: none;
+}
+
+#game {
+	width: 805px;
+	height: 730px;
+	margin-left: auto;
+}
+
+iframe {
+	margin-top: 10px;
+	width: 800px;
+	height: 725px;
+	border: none;
+}
+
+footer {
+	clear: both;
+	background-color: var(--headerFooter);
+	color: white;
+	border-color: black;
+	border-radius: 15px;
+	margin: 0 auto 10px auto;
+	text-align: center;
+	font-size: 1.3em;
+}
+
+ul {
+	list-style-type: disk;
+	padding-left: 10px
+}
+
+li {
+	padding-top: 7px;
+}
+
+img {
+	border-radius: 15px;
+}
+
+#caption {
+	text-align: center;
+}

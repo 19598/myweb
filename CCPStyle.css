@@ -1,0 +1,21 @@
+table {
+	border: solid 2px black;
+	border-collapse: collapse;
+}
+
+td, tr, th {
+	border: solid 2px black;
+	text-align: center;
+}
+
+th {
+	background-color: white;
+}
+
+td {
+	background-color: yellow;
+}
+
+#Optional {
+	text-align: left;
+}
