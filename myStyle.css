@@ -106,6 +106,12 @@ section p {
 	float: none;
 }
 
+#microgame {
+	width: 800px;
+	height: 760px;
+	margin-left: auto;
+}
+
 #game {
 	width: 805px;
 	height: 730px;
