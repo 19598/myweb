@@ -1,47 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
-
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="keywords" content="">
-		
-		<title>Microgame</title>
-		
-		<link href="myStyle.css" rel="stylesheet" type="text/css" />
-		
-	</head>
-
-	<body>
-
-		<div id="container">
-
-			<header>
-				<h1>Microgame</h1>
-			</header>
-			
-			<nav>
-				<ul>
-					<li><a href="index.html" title="Home">Home</a></li>
-					<li><a href="firearms.html" title="Firearms">Firearms</a></li>
-					<li><a href="archery.html" title="Archery">Archery</a></li>
-					<li><a href="trapping.html" title="Trapping">Trapping</a></li>
-					<li><a href="CCPCreditHours.html" title="CCPCreditHours">CCP Credit Hours</a></li>
-					<li><a href="pizzaGuy.html" title="pizzaGuy">Pizza Guy Game</a></li>
-					<li><a href="microgame.html" title="Microgame">Microgame</a></li>
-				</ul>
-			</nav>
-			
-			<section id="microgame">
-				<iframe id='webgl_iframe' frameborder="0" allow="autoplay; fullscreen; vr" allowfullscreen="" allowvr="" mozallowfullscreen="true" src="https://play.unity3dusercontent.com/webgl/c933fd1b-7935-4770-bc21-6472fd1776f0?screenshot=false&embedType=embed" width="810" height="640" onmousewheel="" webkitallowfullscreen="true"></iframe>
-			</section>
-			
-			<footer>
-				<p>&copy; Brendan Degryse 2020</p>
-			</footer>
-
-		</div>
-
-	</body>
-
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | MyFirstGame</title>
+    <link rel="shortcut icon" href="TemplateData/favicon.ico">
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <script src="TemplateData/UnityProgress.js"></script>
+    <script src="Build/UnityLoader.js"></script>
+    <script>
+      var unityInstance = UnityLoader.instantiate("unityContainer", "Build/WebGL Builds.json", {onProgress: UnityProgress});
+    </script>
+  </head>
+  <body>
+    <div class="webgl-content">
+      <div id="unityContainer" style="width: 960px; height: 600px"></div>
+      <div class="footer">
+        <div class="webgl-logo"></div>
+        <div class="fullscreen" onclick="unityInstance.SetFullscreen(1)"></div>
+        <div class="title">MyFirstGame</div>
+      </div>
+    </div>
+  </body>
 </html>
