@@ -1,0 +1,45 @@
+.container_12 {
+	background-color: #e1f8ff;
+}
+
+header {
+	text-align: center;
+	border: solid #0F2455;
+	border-radius: 10px;
+}
+
+h1 {
+	padding-top: 15px;
+	font-size: 40px;
+}
+
+h3 {
+	text-align: center;
+}
+
+h1, h3 {
+	color: #0F2455;
+}
+
+img {
+	padding: 15px;
+}
+
+section {
+	margin-top: 10px;
+	background-color: #669999;
+	border-radius: 10px;
+}
+
+p {
+	color: #e1f8ff;
+	padding: 0 10px 0 10px;
+	line-height: 1.5;
+}
+
+footer {
+	margin-top: 10px;
+	border-radius: 10px;
+	text-align: center;
+	color: #e1f8ff;
+	background-color: #0F2455;
