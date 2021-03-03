@@ -118,6 +118,10 @@ section p {
 	margin-left: auto;
 }
 
+#video {
+	margin-left: 200px;
+}
+
 iframe {
 	margin-top: 10px;
 	width: 800px;
